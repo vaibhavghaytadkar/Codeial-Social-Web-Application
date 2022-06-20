@@ -1,0 +1,23 @@
+[33mcommit dec9646f2f8dc9db1ece2a60dc0283434fed95bd[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: vaibhavghaytadkar <vghaytadkar@gmail.com>
+Date:   Mon Jun 20 18:21:39 2022 +0530
+
+    set user Schema and created form for sign in /up and created alternate cookie
+
+[33mcommit 467eec7b4d4f8233ec2cffbc6585ac24f945bf69[m
+Author: vaibhavghaytadkar <vghaytadkar@gmail.com>
+Date:   Mon Jun 20 17:16:43 2022 +0530
+
+    Set up view Engine ejs
+
+[33mcommit d0cdc08df5248614200128724aeb3a77da38ecc3[m
+Author: vaibhavghaytadkar <vghaytadkar@gmail.com>
+Date:   Mon Jun 20 16:38:36 2022 +0530
+
+    added a controller and a router
+
+[33mcommit 637240a546d555a8bc2f77851f826df2eefdec01[m
+Author: vaibhavghaytadkar <vghaytadkar@gmail.com>
+Date:   Sun Jun 19 23:13:05 2022 +0530
+
+    First commit: create direct structure and setup express server
