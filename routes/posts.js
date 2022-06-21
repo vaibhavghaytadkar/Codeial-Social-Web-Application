@@ -1,8 +1,19 @@
+// const express = require('express');
+// const passport = require('passport');
+// const router=express.Router();
+
+// const postsController=require('../controllers/posts_controller');
+
+// router.post('/create',passport.checkAuthentication,postsController.create);
+
+// module.exports = router;
 const express = require('express');
-const router=express.Router();
+const router = express.Router();
+const passport = require('passport');
 
-const postsController=require('../controllers/posts_controller');
+const postsController = require('../controllers/posts_controller');
 
-router.post('/create',postsController.create);
+router.post('/create', passport.checkAuthentication, postsController.create);
+
 
 module.exports = router;
