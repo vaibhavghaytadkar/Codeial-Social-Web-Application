@@ -14,7 +14,7 @@ router.use('/users',require('./users'));
 // console.log("calling router from index.js--->/posts");
 
 router.use('/posts',require('./posts'));
-console.log("in routes in index js to cfeate comment");
+// console.log("in routes in index js to cfeate comment");
 router.use('/comments',require('./comments'));
 
 module.exports = router;
