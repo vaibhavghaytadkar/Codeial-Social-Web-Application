@@ -1,4 +1,5 @@
 const Post=require('../models/post');
+const User=require('../models/user');
 module.exports.home=function(req,res){
 
     // return res.end('<h1>Express is up for codeial</h1>');
@@ -17,9 +18,12 @@ module.exports.home=function(req,res){
         path:'user'
     }
    }).exec(function(err,post){
-    return res.render('home',{
-        title:"Codeial | Home",
-        posts: post
-    });
-})
-}
+            User.find({},function(err,users){
+                return res.render('home',{
+                    title:"Codeial | Home",
+                    posts: post,
+                    all_users:users
+                });
+            });
+        })
+    }
